@@ -144,7 +144,7 @@ var items = [
 [["filler-need",13], "EPDashedSentence", {s:"+"}, DS, {s:"In 'Tom needn't be offended. The woman didn't want to insult him at all.' means",as: [['s','It is necessary that Tom is not offended.'],['k','It is not necessary that Tom is offended.']]}],
 [["filler-need",14], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You needn't be outraged. The professor is simply joking a bit.', 'You needn't be outraged.' means",as: [['s','It is necessary that you are not outraged.'],['k','It is not necessary that you are outraged.']]}],
 [["filler-need",15], "EPDashedSentence", {s:"+"}, DS, {s:"In 'Sophie needn't tidy the room today. It still looks quite great.', 'Sophie needn't tidy the room today.' means",as: [['s','It is necessary that Sophie does not tidy the room.'],['k','It is not necessary that Sophie tidies the room.']]}],
-[["filler-need",16], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You needn't draw all the materials yourself. You can hire a designer', 'You needn't draw all the materials yourself.' means",as: [['s','It is necessary that you do not draw all the materials yourself.'],['k','It is not necessary that you draw all the materials yourself.']]}],
+[["filler-need",16], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You needn't draw all the materials yourself. You can hire a designer', 'You needn't draw all the materials yourself.' means",as: [['s','It is necessary that you do not draw all the materials yourself.'],['k','It is not necessary that you draw all the materials yourself.']]}]
 
 ];
 
