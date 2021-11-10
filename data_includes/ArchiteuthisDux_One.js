@@ -112,9 +112,9 @@ var items = [
 //// Shared experimental items + fillers
 //// 
 [["MODALITYNEGATION-notnecessary",1], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't worry. The woman will give you the money', 'You mustn't worry' means",as: [['s','It is neccessary that you do not worry.'],['k','It is not necessary that you worry.']]},
-                                      "AcceptabilityJudgment", {q: "How acceptable do you find 'You mustn't worry' in the context?'}], 
+                                      "AcceptabilityJudgment", {p: "How acceptable do you find 'You mustn't worry' in the context?'}], 
 [["MODALITYNEGATION-necessarynot",1], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't worry. You will get sick otherwise.', 'You mustn't worry' means",as: [['s','It is necessary that you do not worry.'],['k','It is not necessary that you worry.']]},
-                                      "AcceptabilityJudgment", {q: "How acceptable do you find 'You mustn't worry' in the context?'}], 
+                                      "AcceptabilityJudgment", {: "How acceptable do you find 'You mustn't worry' in the context?'}], 
 [["MODALITYNEGATION-notnecessary",2], "EPDashedSentence", {s:"+"}, DS, {s:"In 'He mustn't panic. The teacher will give the class an easy test.', 'He mustn't panic' means",as: [['s','It is necessary that he does not panic.'],['k','It is not necessary that he panics.']]},  
                                        "AcceptabilityJudgment", {q: "How acceptable do you find 'He mustn't panic' in the context?'}], 
 [["MODALITYNEGATION-necessarynot",2], "EPDashedSentence", {s:"+"}, DS, {s:"In 'He mustn't panic. The bears in the area will attack him otherwise.', 'He mustn't panic' means",as: [['s','It is necessary that he does not panic.'],['k','It is not necessary that he panics.']]},
