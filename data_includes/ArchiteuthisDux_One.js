@@ -90,7 +90,7 @@ var items = [
                    html: ["div",
                            ["p", "Hai să exersăm un pic înainte de a începe efectiv."]
                          ]}],
-['shared-intro', "DS, {s:"+"} {s:" In 'Don't tell lies. Your friend will be upset with you.', 'Don't tell lies!' means:",as: [['s','You have the obligation not to tell lies.'],['You need not tell lies.','lipsa de obligaţie ']]}, Separator, { transfer: 1500, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
+['shared-intro', "DS, {s:"+"} {s:"In <Don't tell lies. Your friend will be upset with you>., <Don't tell lies!> means:",as: [['s','You have the obligation not to tell lies.'],['You need not tell lies.','lipsa de obligaţie ']]}, Separator, { transfer: 1500, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
