@@ -113,12 +113,10 @@ var items = [
 [["MODALITYNEGATION-necessarynot",3], "EPDashedSentence", {s:"+"}, DS, {s:"In 'She mustn't be sad. She will ruin the party otherwise.', 'She mustn't be sad' means ,as: [['s','It is necessary for her not to be sad.'],['k','It is not necessary for her to be sad.']]}], 
 [["MODALITYNEGATION-notnecessary",4], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't be angry. The man will reward you for your efforts.', 'You mustn't be angry.' means",as: [['s','It is necessary for you not to be angry.'],['k','It is not necessary for you to be angry.']]}], 
 [["MODALITYNEGATION-necessarynot",4], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't be angry. Your mother will punish you otherwise.','You mustn't be angry.' means",as: [['s','It is necessary for you not to be angry.'],['k','It is not necessary for you to be angry.']]}],
-[["ATTRAGREEADJROMANIAN-plmatch",3], "EPDashedSentence", {s:"+"}, DS, {s:"Rochiile albe de lângă croitoresele pricepute uneori ",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",3], "EPDashedSentence", {s:"+"}, DS, {s:" Rochiile albe de lângă  croitoreasa pricepută uneori ",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmatch",4], "EPDashedSentence", {s:"+"}, DS, {s:"Dulceaţa trandafirie de lângă gospodina veselă uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",4], "EPDashedSentence", {s:"+"}, DS, {s:"Dulceaţa trandafirie de lângă gospodinele vesele uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",4], "EPDashedSentence", {s:"+"}, DS, {s:"Dulceţurile trandafirii de lângă gospodinele vesele uneori ",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",4], "EPDashedSentence", {s:"+"}, DS, {s:"Dulceţurile trandafirii de lângă  gospodina veselă uneori ",as: [['s','au'],['k','are']]}], 
+[["MODALITYNEGATION-notnecessary",5], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't be angry. The man will reward you for your efforts.', 'You mustn't be angry.' means",as: [['s','It is necessary for you not to be angry.'],['k','It is not necessary for you to be angry.']]}], 
+[["MODALITYNEGATION-necessarynot",5], "EPDashedSentence", {s:"+"}, DS, {s:"In 'Tom mustn't eat the bread. It won't go stale by tomorrow.','Tom mustn't eat the bread.' means",as: [['s','It is necessary for Tom not to eat the bread.'],['k','It is not necessary for you to be angry.']]}],
+[["MODALITYNEGATION-notnecessary",6], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't be angry. The man will reward you for your efforts.', 'You mustn't be angry.' means",as: [['s','It is necessary for you not to be angry.'],['k','It is not necessary for you to be angry.']]}], 
+[["MODALITYNEGATION-necessarynot",6], "EPDashedSentence", {s:"+"}, DS, {s:"In 'You mustn't be angry. Your mother will punish you otherwise.','You mustn't be angry.' means",as: [['s','It is necessary for you not to be angry.'],['k','It is not necessary for you to be angry.']]}],
 
 
  [["ATTRAGREEADJROMANIAN-sgmatch",5], "EPDashedSentence", {s:"+"}, DS, {s:"Pisica neagră de lângă fata brunetă adesea",as: [['s','au'],['k','are']]}], 
