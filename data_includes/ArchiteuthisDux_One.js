@@ -1,4 +1,4 @@
-// Agreement attraction in Romanian (complex version-nouns with adjectives)
+// Modality and negation 
 
 // Do show progress bar (fine! I give in)
 
@@ -10,7 +10,7 @@ var shuffleSequence = seq(
     'intro',
     'setcounter',
     'shared-intro',
-    sepWith("timeoutSep",rshuffle(startsWith('ATTRAGREEADJROMANIAN'),startsWith('filler'))),
+    sepWith("timeoutSep",rshuffle(startsWith('MODALITYNEGATION'),startsWith('filler'))),
     'debrief'
      );
 
@@ -84,12 +84,12 @@ var items = [
                    html: ["div",
                            ["p", "Hai să exersăm un pic înainte de a începe efectiv."]
                          ]}],
-['shared-intro', "EPDashedSentence", {s:"+"}, DS, {s:"Pisicuţele tigrate",as: [['s','sunt'],['k','este']]}, Separator, { transfer: 1500, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
+['shared-intro', "EPDashedSentence", {s:"+"}, DS, {s:" In 'Don't tell lies. Your friend will be upset with you.', 'Don't tell lies!' means:",as: [['s','You have the obligation not to tell lies.'],['You need not tell lies.','lipsa de obligaţie ']]}, Separator, { transfer: 1500, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
-                           ["p", "Cum vi s-a părut? Pur şi simplu alegeţi rapid varianta care vi se pare o continuare mai bună a propoziţiei."],
-                           ["p", "Multor vorbitori nativi de limba română li se pare că 'sunt' este o continuare mai firească a fragmentului anterior. Hai să mai exersăm un pic."],
+                           ["p", "How did you find the task? You simply have to choose the interpretation that seems most appropriate to you."],
+                           ["p", "Many English speakers found 'You have the obligation not to tell lies' to be a more natural interpretation of the sentence. Let's practice a bit more"],
                          ]}],
 
 ['shared-intro', "EPDashedSentence", {s:"+"}, DS, {s:"Zambila roz",as: [['s','miros'],['k','miroase']]}, Separator, { transfer: 1500, normalMessage: "", errorMessage: "Timed out. Vă rugăm să răspundeți mai rapid."}],
