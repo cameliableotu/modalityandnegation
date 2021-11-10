@@ -31,7 +31,7 @@ var defaults = [
         display: 'in place',
         blankText: '+',
         wordTime: 1000,
-        wordPauseTime: 150
+        wordPauseTime: 250
         },
         DS, {randomOrder: false,
         presentHorizontally: true,
@@ -40,7 +40,7 @@ var defaults = [
         blankText: '+',
         wordTime: 300,
         wordPauseTime: 200,
-        timeout: 5000,
+        timeout: 7000,
         hasCorrect: false,
         q: ''},
     "AcceptabilityJudgment", {
