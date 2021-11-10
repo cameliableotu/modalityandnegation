@@ -97,10 +97,10 @@ var items = [
 
 ['shared-intro', Message, {consentRequired: false,
                    html: ["div",
-                           ["p", "Bun, gata cu exersatul! Apăsaţi orice tastă când sunteţi gata să începeţi."]
+                           ["p", "Great, now let's practice! Press any key when you are ready."]
                         ]}],
 
-['shared-intro',"Separator",{transfer: 2500, normalMessage: "Atenţie! Primul fragment de propoziţie din acest set va apărea pe ecran în curând."}],
+['shared-intro',"Separator",{transfer: 2500, normalMessage: "Attention please! The first word will soon appear on the screen."}],
 
 
 //// Shared experimental items + fillers
@@ -121,58 +121,6 @@ var items = [
 [["MODALITYNEGATION-necessarynot",7], "EPDashedSentence", {s:"+"}, DS, {s:"In 'Linda mustn't speak German. Our guests only speak English.', 'You mustn't speak German.' means",as: [['s','It is necessary that you do not speak German.'],['k','It is not necessary that you speak German.']]}],
 [["MODALITYNEGATION-notnecessary",8], "EPDashedSentence", {s:"+"}, DS, {s:"In 'Linda mustn't speak German. All the German people in the office speak English.', 'You mustn't speak German.' means",as: [['s','It is necessary that you do not speak German.'],['k','It is not necessary that you speak German.']]}], 
 [["MODALITYNEGATION-necessarynot",8], "EPDashedSentence", {s:"+"}, DS, {s:"In 'Linda mustn't speak German. Our guests only speak English.', 'You mustn't speak German.' means",as: [['s','It is necessary that you do not speak German.'],['k','It is not necessary that you speak German.']]}],
-
-
-[["ATTRAGREEADJROMANIAN-sgmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletul angelic de lângă trupul omenesc mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletul angelic de lângă trupurile omeneşti mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletele angelice de lângă trupurile omeneşti mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",13], "EPDashedSentence", {s:"+"}, DS, {s:"Sufletele angelice de lângă trupul omenesc mereu",as: [['s','au'],['k','are']]}],
-[["ATTRAGREEADJROMANIAN-sgmatch",14], "EPDashedSentence", {s:"+"}, DS, {s:"Mamiferul slab de lângă nevertebratul albastru uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",14], "EPDashedSentence", {s:"+"}, DS, {s:"Mamiferul slab de lângă nevertebratele albastre uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",14], "EPDashedSentence", {s:"+"}, DS, {s:"Mamiferele slabe de lângă nevertebratele albastre uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",14], "EPDashedSentence", {s:"+"}, DS, {s:"Mamiferele slabe de lângă nevertebratul albastru uneori",as: [['s','au'],['k','are']]}],
-[["ATTRAGREEADJROMANIAN-sgmatch",15], "EPDashedSentence", {s:"+"}, DS, {s:"Macroul mare de lângă vertebratul acvatic adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",15], "EPDashedSentence", {s:"+"}, DS, {s:"Macroul mare de lângă vertebratele acvatice adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",15], "EPDashedSentence", {s:"+"}, DS, {s:"Macrourile mari de lângă vertebratele acvatice adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",15], "EPDashedSentence", {s:"+"}, DS, {s:"Macrourile mari de lângă vertebratul acvatic adesea",as: [['s','au'],['k','are']]}],
-[["ATTRAGREEADJROMANIAN-sgmatch",16], "EPDashedSentence", {s:"+"}, DS, {s:"Animalul blănos de lângă mamiferul marin uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",16], "EPDashedSentence", {s:"+"}, DS, {s:"Animalul blănos de lângă mamiferele marine uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",16], "EPDashedSentence", {s:"+"}, DS, {s:"Animalele blănoase de lângă mamiferele marine uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",16], "EPDashedSentence", {s:"+"}, DS, {s:"Animalele blănoase de lângă mamiferul marin uneori",as: [['s','au'],['k','are']]}],
-
-
-[["ATTRAGREEADJROMANIAN-sgmatch",17], "EPDashedSentence", {s:"+"}, DS, {s:"Câinele uriaş de lângă copilul înalt adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",17], "EPDashedSentence", {s:"+"}, DS, {s:"Câinele uriaş de lângă copiii înalţi adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",17], "EPDashedSentence", {s:"+"}, DS, {s:"Câinii uriaşi de lângă copiii înalţi adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",17], "EPDashedSentence", {s:"+"}, DS, {s:" Câinii uriaşi de lângă copilul înalt adesea",as: [['s','au'],['k','are']]}],
-[["ATTRAGREEADJROMANIAN-sgmatch",18], "EPDashedSentence", {s:"+"}, DS, {s:"Doctorul competent de lângă pacientul depresiv uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",18], "EPDashedSentence", {s:"+"}, DS, {s:"Doctorul competent de lângă pacienţii depresivi uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",18], "EPDashedSentence", {s:"+"}, DS, {s:"Doctorii competenţi de lângă pacienţii depresivi uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",18], "EPDashedSentence", {s:"+"}, DS, {s:"Doctorii competenţi de lângă pacientul depresiv uneori",as: [['s','au'],['k','are']]}],
-[["ATTRAGREEADJROMANIAN-sgmatch",19], "EPDashedSentence", {s:"+"}, DS, {s:"Preotul înţelept de lângă călugărul creştin mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",19], "EPDashedSentence", {s:"+"}, DS, {s:"Preotul înţelept de lângă călugării creştini mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",19], "EPDashedSentence", {s:"+"}, DS, {s:"Preoţii înţelepţi de lângă călugării creştini mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",19], "EPDashedSentence", {s:"+"}, DS, {s:"Preoţii înţelepţi de lângă călugărul creştin mereu",as: [['s','au'],['k','are']]}],
-[["ATTRAGREEADJROMANIAN-sgmatch",20], "EPDashedSentence", {s:"+"}, DS, {s:"Profesorul talentat de lângă studentul masterand uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",20], "EPDashedSentence", {s:"+"}, DS, {s:"Profesorul talentat de lângă studenţii masteranzi uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",20], "EPDashedSentence", {s:"+"}, DS, {s:"Profesorii talentaţi de lângă studenţii masteranzi uneori",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",20], "EPDashedSentence", {s:"+"}, DS, {s:" Profesorii talentaţi de lângă studentul masterand uneori",as: [['s','au'],['k','are']]}],
-[["ATTRAGREEADJROMANIAN-sgmatch",21], "EPDashedSentence", {s:"+"}, DS, {s:"Cârnatul gustos de lângă hangiul local mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",21], "EPDashedSentence", {s:"+"}, DS, {s:"Cârnatul gustos de lângă hangiii locali mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",21], "EPDashedSentence", {s:"+"}, DS, {s:"Cârnaţii gustoşi de lângă hangiii locali mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",21], "EPDashedSentence", {s:"+"}, DS, {s:"Cârnaţii gustoşi de lângă hangiul local mereu",as: [['s','au'],['k','are']]}],
-[["ATTRAGREEADJROMANIAN-sgmatch",22], "EPDashedSentence", {s:"+"}, DS, {s:"Buşteanul solid de lângă eroul naţional mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",22], "EPDashedSentence", {s:"+"}, DS, {s:"Buşteanul solid de lângă eroii naţionali mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",22], "EPDashedSentence", {s:"+"}, DS, {s:"Buştenii solizi de lângă eroii naţionali mereu",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",22], "EPDashedSentence", {s:"+"}, DS, {s:"Buştenii solizi de lângă eroul naţional mereu ",as: [['s','au'],['k','are']]}],
-[["ATTRAGREEADJROMANIAN-sgmatch",23], "EPDashedSentence", {s:"+"}, DS, {s:"Nasturele negru de lângă croitorul gras adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",23], "EPDashedSentence", {s:"+"}, DS, {s:"Nasturele negru de lângă croitorii graşi adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",23], "EPDashedSentence", {s:"+"}, DS, {s:"Nasturii negri de lângă croitorii graşi adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",23], "EPDashedSentence", {s:"+"}, DS, {s:"Nasturii negri de lângă croitorul gras adesea",as: [['s','au'],['k','are']]}],
-[["ATTRAGREEADJROMANIAN-sgmatch",24], "EPDashedSentence", {s:"+"}, DS, {s:"Sacul imens de lângă contabilul armean adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-sgmismatch",24], "EPDashedSentence", {s:"+"}, DS, {s:"Sacul imens de lângă contabilii armeni adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmatch",24], "EPDashedSentence", {s:"+"}, DS, {s:"Sacii imenşi de lângă contabilii armeni adesea",as: [['s','au'],['k','are']]}], 
-[["ATTRAGREEADJROMANIAN-plmismatch",24], "EPDashedSentence", {s:"+"}, DS, {s:"Sacii imenşi de lângă contabilul armean adesea",as: [['s','au'],['k','are']]}],
 
 
 
